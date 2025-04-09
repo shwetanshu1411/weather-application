@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import WeatherCard from './components/weather';
 import ForecastCard from './components/forecast';
+import { motion } from 'framer-motion';
 import weather from './assets/weather1.jpeg'; // ✅ make sure this path is correct
 
 const MAX_SEARCH_HISTORY = 5;
