@@ -132,7 +132,7 @@ setupcomingforecast(forecasts);
             onChange={(e) => setinputvalue(e.target.value)}
             onKeyDown={handleKeyDown}
             placeholder="Search for a city..."
-            className="border border-gray-300 dark:border-gray-600 rounded-md p-2 w-full text-white focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200"
+            className=" text-white border-gray-700 dark:border-gray-600 rounded-md p-2 w-full focus:outline-none focus:ring-2 focus:ring-blue-400 transition-all duration-200"
           />
           <button
             onClick={handleSearch}
