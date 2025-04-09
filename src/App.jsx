@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import WeatherCard from './components/Weather';
+import WeatherCard from './components/weather';
 import ForecastCard from './components/forecast';
 import weather from './assets/weather1.jpeg'; // ✅ make sure this path is correct
 
